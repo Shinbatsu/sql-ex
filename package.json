@@ -1,0 +1,12 @@
+{
+  "name": "sqlex",
+  "version": "1.0.0",
+  "description": "SQL challenges",
+  "license": "ISC",
+  "author": "Shinbatsu",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
