@@ -1,3 +1,7 @@
-SELECT ship,battle
-FROM outcomes
-WHERE RESULT='sunk'
+SELECT
+  ship,
+  battle
+FROM
+  outcomes
+WHERE
+  RESULT = 'sunk'

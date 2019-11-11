@@ -1,1 +1,7 @@
-SELECT class,country FROM classes WHERE bore>=16
+SELECT
+  class,
+  country
+FROM
+  classes
+WHERE
+  bore >= 16

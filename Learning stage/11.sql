@@ -1,1 +1,4 @@
-SELECT sum(speed)/count(speed) FROM PC
+SELECT
+  sum(speed) / count(speed)
+FROM
+  PC

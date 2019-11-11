@@ -1,4 +1,8 @@
-SELECT maker
-FROM Product
-WHERE TYPE='Printer'
-GROUP BY maker
+SELECT
+  maker
+FROM
+  Product
+WHERE
+TYPE = 'Printer'
+GROUP BY
+  maker

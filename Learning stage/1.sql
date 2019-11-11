@@ -1,4 +1,8 @@
-SELECT PC.model,
-PC.speed,PC.hd
-FROM PC
-WHERE price<500
+SELECT
+  PC.model,
+  PC.speed,
+  PC.hd
+FROM
+  PC
+WHERE
+  price < 500

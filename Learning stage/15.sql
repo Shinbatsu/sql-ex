@@ -1,1 +1,14 @@
-SELECT hd from (SELECT hd,count(hd) ct from PC Group by hd) t WHERE ct>=2
+SELECT
+  hd
+from
+  (
+    SELECT
+      hd,
+      count(hd) ct
+    from
+      PC
+    Group by
+      hd
+  ) t
+WHERE
+  ct >= 2

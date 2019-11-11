@@ -1,3 +1,6 @@
-SELECT *
-FROM Printer
-WHERE color!='n'
+SELECT
+  *
+FROM
+  Printer
+WHERE
+  color != 'n'
